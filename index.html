@@ -113,25 +113,26 @@
             background: radial-gradient(circle, rgba(245, 179, 66, 0.05) 0%, transparent 70%);
         }
 
-        /* ---------- HEADER / GIF ---------- */
-        .header-gif {
+        /* ---------- HEADER / LOGO ---------- */
+        .header-logo {
             text-align: center;
             margin-bottom: 18px;
             position: relative;
             z-index: 1;
         }
 
-        .header-gif img {
+        .header-logo img {
             max-width: 100%;
             height: auto;
-            width: 180px;
+            width: 220px;
+            /* diperbesar */
             border-radius: 16px;
             display: inline-block;
             filter: drop-shadow(0 4px 20px rgba(245, 179, 66, 0.20));
             transition: transform 0.3s ease;
         }
 
-        .header-gif img:hover {
+        .header-logo img:hover {
             transform: scale(1.03);
         }
 
@@ -336,11 +337,17 @@
 
         .link-table {
             width: 100%;
-            border-collapse: collapse;
-            border-radius: 14px;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 20px;
+            /* lebih bulat */
             overflow: hidden;
             background: var(--dark-surface);
             border: 1px solid rgba(245, 179, 66, 0.08);
+            background-image: url('https://ik.imagekit.io/rprsci6rt/logo-line.png');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
         }
 
         .link-table thead {
@@ -348,9 +355,10 @@
         }
 
         .link-table thead th {
-            padding: 14px 16px;
+            padding: 18px 20px;
+            /* lebih besar */
             text-align: left;
-            font-size: 13px;
+            font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             font-weight: 700;
@@ -358,9 +366,15 @@
             border-bottom: 1px solid rgba(245, 179, 66, 0.08);
         }
 
+        /* Sembunyikan header AKSI */
+        .link-table thead th:last-child {
+            display: none;
+        }
+
         .link-table tbody td {
-            padding: 14px 16px;
-            font-size: 14px;
+            padding: 18px 20px;
+            /* lebih besar */
+            font-size: 15px;
             border-bottom: 1px solid rgba(245, 179, 66, 0.05);
             color: var(--text-primary);
             font-weight: 500;
@@ -377,15 +391,15 @@
         .link-table .label-cell {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 14px;
         }
 
         .link-table .label-cell .badge {
             display: inline-block;
-            font-size: 11px;
+            font-size: 13px;
             font-weight: 700;
             text-transform: uppercase;
-            padding: 2px 12px;
+            padding: 4px 16px;
             border-radius: 100px;
             letter-spacing: 0.5px;
         }
@@ -408,8 +422,8 @@
             color: var(--gold-light);
             font-weight: 700;
             text-decoration: none;
-            font-size: 14px;
-            padding: 6px 18px;
+            font-size: 15px;
+            padding: 8px 24px;
             border-radius: 100px;
             border: 1px solid rgba(245, 179, 66, 0.15);
             transition: all 0.25s ease;
@@ -506,27 +520,27 @@
             }
 
             .link-table thead th {
-                font-size: 11px;
-                padding: 10px 12px;
+                font-size: 12px;
+                padding: 14px 16px;
             }
 
             .link-table tbody td {
-                font-size: 13px;
-                padding: 10px 12px;
+                font-size: 14px;
+                padding: 14px 16px;
             }
 
             .link-table .action-link {
-                font-size: 12px;
-                padding: 4px 12px;
+                font-size: 13px;
+                padding: 6px 16px;
             }
 
             .link-table .label-cell .badge {
-                font-size: 10px;
-                padding: 1px 10px;
+                font-size: 11px;
+                padding: 3px 12px;
             }
 
-            .header-gif img {
-                width: 130px;
+            .header-logo img {
+                width: 160px;
             }
 
             .glow-orb {
@@ -578,16 +592,19 @@
                 padding: 3px 12px;
             }
             .link-table tbody td {
-                font-size: 12px;
-                padding: 8px 10px;
+                font-size: 13px;
+                padding: 12px 14px;
             }
             .link-table .action-link {
-                font-size: 11px;
-                padding: 3px 10px;
+                font-size: 12px;
+                padding: 5px 14px;
             }
             .link-table thead th {
-                font-size: 10px;
-                padding: 8px 10px;
+                font-size: 11px;
+                padding: 12px 14px;
+            }
+            .header-logo img {
+                width: 130px;
             }
         }
     </style>
@@ -601,11 +618,11 @@
         <div class="glow-orb"></div>
         <div class="glow-orb glow-orb--bottom"></div>
 
-        <!-- ====== GIF ICON ====== -->
-        <div class="header-gif">
+        <!-- ====== LOGO ====== -->
+        <div class="header-logo">
             <img
-            src="https://cdn.areabermain.club/assets/cdn/az6/2024/05/29/20240529/36be17c88695a583bcdac308b12bc4e4/linetogel-gif-icooun.gif"
-            alt="LINETOGEL Icon"
+            src="https://ik.imagekit.io/rprsci6rt/logo-line.png"
+            alt="LINETOGEL Logo"
             loading="lazy"
             />
         </div>
@@ -665,7 +682,7 @@
                 <thead>
                     <tr>
                         <th>Layanan</th>
-                        <th style="text-align:right;">Aksi</th>
+                        <th style="display:none;">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -673,7 +690,7 @@
                         <td>
                             <div class="label-cell">
                                 <span class="badge badge--register">Daftar</span>
-                                <span style="color:var(--text-muted);font-weight:400;font-size:13px;">
+                                <span style="color:var(--text-muted);font-weight:400;font-size:14px;">
                                     Buat akun baru
                                 </span>
                             </div>
@@ -694,7 +711,7 @@
                     <td>
                         <div class="label-cell">
                             <span class="badge badge--login">Login</span>
-                            <span style="color:var(--text-muted);font-weight:400;font-size:13px;">
+                            <span style="color:var(--text-muted);font-weight:400;font-size:14px;">
                                 Masuk ke akun Anda
                             </span>
                         </div>

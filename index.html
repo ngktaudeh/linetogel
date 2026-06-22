@@ -113,19 +113,35 @@
             background: radial-gradient(circle, rgba(245, 179, 66, 0.05) 0%, transparent 70%);
         }
 
+        /* ---------- HERO SECTION dengan background gambar ---------- */
+        .hero-section {
+            position: relative;
+            z-index: 1;
+            background-image: url('https://ik.imagekit.io/rprsci6rt/logo-line.png');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            background-color: rgba(20, 17, 22, 0.75);
+            /* overlay gelap agar teks terbaca */
+            border-radius: 20px;
+            padding: 30px 20px 20px;
+            margin-bottom: 18px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(245, 179, 66, 0.08);
+        }
+
         /* ---------- HEADER / LOGO ---------- */
         .header-logo {
             text-align: center;
-            margin-bottom: 18px;
+            margin-bottom: 12px;
             position: relative;
-            z-index: 1;
+            z-index: 2;
         }
 
         .header-logo img {
             max-width: 100%;
             height: auto;
             width: 220px;
-            /* diperbesar */
             border-radius: 16px;
             display: inline-block;
             filter: drop-shadow(0 4px 20px rgba(245, 179, 66, 0.20));
@@ -140,7 +156,7 @@
         .brand {
             text-align: center;
             position: relative;
-            z-index: 1;
+            z-index: 2;
         }
 
         .brand .logo-line {
@@ -158,11 +174,12 @@
             letter-spacing: 4px;
             text-transform: uppercase;
             color: var(--text-primary);
+            text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
         }
 
         .brand .logo-line .line-word.togel {
             color: var(--gold);
-            text-shadow: 0 0 30px rgba(245, 179, 66, 0.25);
+            text-shadow: 0 0 30px rgba(245, 179, 66, 0.35), 0 2px 12px rgba(0, 0, 0, 0.6);
         }
 
         .brand .logo-line .scatter-badge {
@@ -201,6 +218,7 @@
             border-top: 1px solid rgba(245, 179, 66, 0.10);
             padding-top: 12px;
             display: inline-block;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
         .brand .tagline span {
@@ -208,12 +226,12 @@
             font-weight: 600;
         }
 
-        /* ---------- PLAY CTA (from image) ---------- */
+        /* ---------- PLAY CTA ---------- */
         .play-cta {
             text-align: center;
-            margin: 16px 0 22px;
+            margin: 16px 0 6px;
             position: relative;
-            z-index: 1;
+            z-index: 2;
         }
 
         .play-cta .play-btn {
@@ -340,7 +358,6 @@
             border-collapse: separate;
             border-spacing: 0;
             border-radius: 20px;
-            /* lebih bulat */
             overflow: hidden;
             background: var(--dark-surface);
             border: 1px solid rgba(245, 179, 66, 0.08);
@@ -348,6 +365,7 @@
             background-size: cover;
             background-position: center;
             background-blend-mode: overlay;
+            background-color: rgba(20, 17, 22, 0.85);
         }
 
         .link-table thead {
@@ -356,7 +374,6 @@
 
         .link-table thead th {
             padding: 18px 20px;
-            /* lebih besar */
             text-align: left;
             font-size: 14px;
             text-transform: uppercase;
@@ -366,14 +383,12 @@
             border-bottom: 1px solid rgba(245, 179, 66, 0.08);
         }
 
-        /* Sembunyikan header AKSI */
         .link-table thead th:last-child {
             display: none;
         }
 
         .link-table tbody td {
             padding: 18px 20px;
-            /* lebih besar */
             font-size: 15px;
             border-bottom: 1px solid rgba(245, 179, 66, 0.05);
             color: var(--text-primary);
@@ -479,77 +494,65 @@
                 padding: 24px 16px 20px;
                 border-radius: 14px;
             }
-
+            .hero-section {
+                padding: 20px 12px 16px;
+            }
             .brand .logo-line .line-word {
                 font-size: 20px;
                 letter-spacing: 2px;
             }
-
             .brand .logo-line .scatter-badge {
                 font-size: 14px;
                 padding: 3px 14px;
             }
-
             .brand .tagline {
                 font-size: 12px;
                 letter-spacing: 1px;
             }
-
             .play-cta .play-btn {
                 font-size: 17px;
                 padding: 12px 32px;
                 letter-spacing: 2px;
             }
-
             .play-cta .play-btn .arrow {
                 font-size: 20px;
             }
-
             .description h1 {
                 font-size: 20px;
             }
-
             .description .desc-text {
                 font-size: 14px;
                 line-height: 1.6;
             }
-
             .benefits .pill {
                 font-size: 12px;
                 padding: 4px 14px;
             }
-
             .link-table thead th {
                 font-size: 12px;
                 padding: 14px 16px;
             }
-
             .link-table tbody td {
                 font-size: 14px;
                 padding: 14px 16px;
             }
-
             .link-table .action-link {
                 font-size: 13px;
                 padding: 6px 16px;
             }
-
             .link-table .label-cell .badge {
                 font-size: 11px;
                 padding: 3px 12px;
             }
-
             .header-logo img {
                 width: 160px;
             }
-
             .glow-orb {
                 width: 180px;
                 height: 180px;
                 top: -80px;
                 right: -50px;
             }
-
             .glow-orb--bottom {
                 width: 160px;
                 height: 160px;
@@ -562,7 +565,9 @@
             .main-wrapper {
                 padding: 18px 12px 16px;
             }
-
+            .hero-section {
+                padding: 16px 8px 12px;
+            }
             .brand .logo-line {
                 gap: 6px;
             }
@@ -618,33 +623,39 @@
         <div class="glow-orb"></div>
         <div class="glow-orb glow-orb--bottom"></div>
 
-        <!-- ====== LOGO ====== -->
-        <div class="header-logo">
-            <img
-            src="https://ik.imagekit.io/rprsci6rt/logo-line.png"
-            alt="LINETOGEL Logo"
-            loading="lazy"
-            />
-        </div>
+        <!-- ====== HERO SECTION dengan background gambar ====== -->
+        <div class="hero-section">
 
-        <!-- ====== BRAND ====== -->
-        <div class="brand">
-            <div class="logo-line">
-                <span class="line-word">LINE</span>
-                <span class="line-word togel">TOGEL</span>
-                <span class="scatter-badge">✦ SCATTER ✦</span>
+            <!-- ====== LOGO ====== -->
+            <div class="header-logo">
+                <img
+                src="https://ik.imagekit.io/rprsci6rt/logo-line.png"
+                alt="LINETOGEL Logo"
+                loading="lazy"
+                />
             </div>
-            <div class="tagline">
-                Situs Toto Online Terpercaya · <span>Pasaran Togel Terlengkap</span>
-            </div>
-        </div>
 
-        <!-- ====== PLAY CTA (from image prompt) ====== -->
-        <div class="play-cta">
-            <span class="play-btn">
-                <span class="arrow">▶</span> PLAY <span class="arrow">▶</span>
-            </span>
+            <!-- ====== BRAND ====== -->
+            <div class="brand">
+                <div class="logo-line">
+                    <span class="line-word">LINE</span>
+                    <span class="line-word togel">TOGEL</span>
+                    <span class="scatter-badge">✦ SCATTER ✦</span>
+                </div>
+                <div class="tagline">
+                    Situs Toto Online Terpercaya · <span>Pasaran Togel Terlengkap</span>
+                </div>
+            </div>
+
+            <!-- ====== PLAY CTA ====== -->
+            <div class="play-cta">
+                <span class="play-btn">
+                    <span class="arrow">▶</span> PLAY <span class="arrow">▶</span>
+                </span>
+            </div>
+
         </div>
+        <!-- end hero-section -->
 
         <!-- ====== DESCRIPTION ====== -->
         <div class="description">

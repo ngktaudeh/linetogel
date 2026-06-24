@@ -18,21 +18,22 @@ Situs landing page LINETOGEL dengan optimasi SEO penuh.
 
 Deploy otomatis melalui Vercel. Push ke branch `main` akan trigger deployment.
 
-## Domain
+## URL
 
-- Production: `https://www.linetogel788.com`
-- Preview: `https://why-six-drab.vercel.app`
+- Live: `https://why-six-drab.vercel.app`
 
 ## Setup Google Search Console
 
+Karena domain di Vercel (`vercel.app`), gunakan **URL prefix** method:
+
 1. Buka https://search.google.com/search-console
-2. Tambahkan property `linetogel788.com`
-3. Copy kode verifikasi HTML tag
-4. Uncomment dan ganti `KODE_VERIFIKASI_GOOGLE_SEARCH_CONSOLE` di `index.html`
+2. Klik "Add Property" → pilih **"URL prefix"**
+3. Masukkan `https://why-six-drab.vercel.app/`
+4. Pilih verifikasi **HTML tag**
+5. Copy kode verifikasi, kirim untuk dipasang di `index.html`
 
 ## Setup Bing Webmaster
 
 1. Buka https://www.bing.com/webmasters
-2. Tambahkan site `linetogel788.com`
-3. Copy kode verifikasi
-4. Uncomment dan ganti `KODE_VERIFIKASI_BING` di `index.html`
+2. Tambahkan site dengan URL prefix `https://why-six-drab.vercel.app/`
+3. Copy kode verifikasi untuk dipasang di `index.html`

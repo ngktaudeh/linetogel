@@ -3,6 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /api
 
-Sitemap: https://www.linetogel788.com/sitemap.xml
-
-# Crawl-delay: 10
+Sitemap: https://why-six-drab.vercel.app/sitemap.xml

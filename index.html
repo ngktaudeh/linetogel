@@ -834,6 +834,116 @@
     }
 
     /* ============================================ */
+    /*    PASARAN TABLE                              */
+    /* ============================================ */
+    .pasaran-table-wrap {
+      overflow-x: auto;
+      margin: 14px 0;
+      border-radius: 12px;
+      border: 1px solid rgba(255,215,0,0.12);
+    }
+    .pasaran-table-wrap table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10px;
+      min-width: 400px;
+    }
+    .pasaran-table-wrap th {
+      background: rgba(255,215,0,0.1);
+      color: #FFD700;
+      font-weight: 700;
+      padding: 9px 7px;
+      text-align: left;
+      font-size: 10px;
+    }
+    .pasaran-table-wrap td {
+      padding: 8px 7px;
+      border-bottom: 1px solid rgba(255,215,0,0.06);
+      color: rgba(255,255,255,0.65);
+      font-size: 10px;
+    }
+    .pasaran-table-wrap tr:hover td {
+      background: rgba(255,215,0,0.03);
+    }
+
+    /* ============================================ */
+    /*    TESTIMONI                                  */
+    /* ============================================ */
+    .testimoni-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin: 14px 0;
+    }
+    .testimoni-card {
+      background: rgba(255,215,0,0.03);
+      border: 1px solid rgba(255,215,0,0.1);
+      border-left: 3px solid rgba(255,215,0,0.4);
+      border-radius: 0 10px 10px 0;
+      padding: 14px;
+    }
+    .testimoni-card .t-name {
+      font-weight: 700;
+      font-size: 12px;
+      color: #FFD700;
+      margin-bottom: 4px;
+    }
+    .testimoni-card .t-stars {
+      color: #FFD700;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+    .testimoni-card .t-text {
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+    }
+
+    /* ============================================ */
+    /*    COMPARISON & KOTA                          */
+    /* ============================================ */
+    .comparison-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,215,0,0.05);
+      font-size: 11px;
+    }
+    .comparison-row .c-feature {
+      color: rgba(255,255,255,0.6);
+    }
+    .comparison-row .c-us {
+      color: #FFD700;
+      font-weight: 600;
+    }
+    .comparison-row .c-other {
+      color: rgba(255,255,255,0.35);
+    }
+    .kota-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      margin: 10px 0;
+    }
+    .kota-link {
+      display: block;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,215,0,0.12);
+      border-radius: 10px;
+      text-decoration: none;
+      color: rgba(255,255,255,0.55);
+      font-size: 11px;
+      text-align: center;
+      transition: all .2s;
+    }
+    .kota-link:hover {
+      color: #FFD700;
+      background: rgba(255,215,0,0.05);
+      border-color: rgba(255,215,0,0.3);
+    }
+
+    /* ============================================ */
     /*    PAYMENT METHODS (PILLS)                    */
     /* ============================================ */
     .payment-section {
@@ -1125,14 +1235,14 @@
         <div class="info-card">
           <h3><span class="card-icon">✅</span> Keunggulan LINETOGEL</h3>
           <ul>
-            <li><strong>Pasaran toto terlengkap</strong> — mencakup semua pasaran populer lokal dan internasional</li>
-            <li><strong>Bayaran kemenangan tertinggi</strong> — dapatkan hasil maksimal dari setiap kemenangan</li>
-            <li><strong>Proses deposit & withdraw super cepat</strong> — transaksi dalam hitungan menit</li>
-            <li><strong>Customer service 24 jam</strong> — tim support profesional siap membantu</li>
-            <li><strong>Sistem keamanan terjamin</strong> — enkripsi SSL & payment gateway resmi</li>
-            <li><strong>Akses desktop & mobile</strong> — mainkan kapan saja, di mana saja</li>
-            <li><strong>Minimal deposit terjangkau</strong> — mulai dengan modal kecil</li>
-            <li><strong>Bonus & promosi menarik</strong> — new member, cashback, event spesial</li>
+            <li><strong><a href="/pages/pasaran.html">Pasaran toto terlengkap</a></strong> — mencakup semua pasaran populer lokal dan internasional, total 20+ pilihan yang bisa dimainkan dengan satu akun</li>
+            <li><strong>Bayaran kemenangan tertinggi</strong> — dapatkan hasil maksimal dari setiap kemenangan dengan rate yang paling kompetitif</li>
+            <li><strong>Proses deposit & withdraw super cepat</strong> — transaksi dalam hitungan menit, kapan saja</li>
+            <li><strong>Customer service 24 jam</strong> — tim support profesional siap membantu kapan pun dibutuhkan</li>
+            <li><strong>Sistem keamanan terjamin</strong> — enkripsi SSL & payment gateway resmi, <a href="/privacy.html">baca kebijakan privasi</a></li>
+            <li><strong>Akses desktop & mobile</strong> — mainkan kapan saja, di mana saja, dari perangkat apa pun</li>
+            <li><strong>Minimal deposit terjangkau</strong> — mulai dengan modal kecil, cocok untuk pemula</li>
+            <li><strong>Bonus & promosi menarik</strong> — new member, cashback, event spesial setiap minggu</li>
           </ul>
         </div>
 
@@ -1153,20 +1263,108 @@
           <p><a href="/pages/pasaran.html">LINETOGEL menyediakan <strong>pasaran toto paling lengkap</strong></a> — dari pasaran lokal favorit hingga internasional ternama, semua tersedia dalam satu platform. Hasil di-<strong>update real-time</strong>, selalu akurat. Pilihan pasaran beragam memberi <strong>peluang lebih besar</strong> untuk meraih kemenangan maksimal.</p>
         </div>
 
+        <!-- Pasaran Table -->
+        <div class="pasaran-table-wrap">
+          <table>
+            <thead>
+              <tr><th>🌍 Pasaran</th><th>🕐 Jam Tutup</th><th>🏆 Popularitas</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>🇰🇭 Cambodia</td><td>11:30 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇹🇭 Bangkok</td><td>12:30 WIB</td><td>★★★★☆</td></tr>
+              <tr><td>🇦🇺 Sydney</td><td>13:30 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇲🇾 Malaysia</td><td>14:00 WIB</td><td>★★★★☆</td></tr>
+              <tr><td>🇨🇳 China</td><td>15:00 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇸🇬 Singapore</td><td>17:30 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇵🇭 Manila</td><td>18:30 WIB</td><td>★★★☆☆</td></tr>
+              <tr><td>🇲🇴 Macau</td><td>20:00 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇹🇼 Taiwan</td><td>20:30 WIB</td><td>★★★★☆</td></tr>
+              <tr><td>🇦🇪 Dubai</td><td>21:00 WIB</td><td>★★★☆☆</td></tr>
+              <tr><td>🇷🇺 Moscow</td><td>21:30 WIB</td><td>★★★☆☆</td></tr>
+              <tr><td>🇭🇰 Hongkong</td><td>22:30 WIB</td><td>★★★★★</td></tr>
+              <tr><td>🇬🇧 London</td><td>23:00 WIB</td><td>★★★☆☆</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="info-card">
+          <h3><span class="card-icon">📊</span> Analisis Pasaran Favorit</h3>
+          <p>Berdasarkan data pemain LINETOGEL, pasaran <strong>Singapore</strong> dan <strong>Hongkong</strong> menjadi favorit utama karena konsistensi jadwal dan data historis yang mudah dianalisis. <strong>Cambodia</strong> dan <strong>Sydney</strong> cocok untuk pemain yang ingin hasil cepat di pagi dan siang hari. <strong>Macau</strong> menjadi pilihan populer di malam hari dengan frekuensi result yang tinggi. <a href="/pages/pasaran.html">Lihat semua pasaran dan jadwal lengkap →</a></p>
+        </div>
+
         <div class="info-card">
           <h3><span class="card-icon">💡</span> Tips Meraih Kemenangan</h3>
           <ul>
-            <li><a href="/pages/tips.html">Pelajari pola & statistik</a> setiap pasaran toto</li>
-            <li>Manfaatkan bonus new member & promosi</li>
-            <li>Kelola bankroll — tentukan batas harian</li>
-            <li>Pilih pasaran bayaran tertinggi untuk hasil maksimal</li>
-            <li>Bermain konsisten & sabar — strategi adalah kunci</li>
+            <li><a href="/pages/tips.html">Pelajari pola & statistik</a> setiap pasaran toto — analisis data historis minimal 30 hari</li>
+            <li>Manfaatkan <a href="/pages/daftar.html">bonus new member</a> & promosi mingguan untuk menambah modal bermain</li>
+            <li>Kelola bankroll dengan bijak — tentukan batas harian dan jangan pernah melebihi kemampuan</li>
+            <li>Pilih <a href="/pages/pasaran.html">pasaran bayaran tertinggi</a> untuk hasil maksimal di setiap kemenangan</li>
+            <li>Bermain konsisten & sabar — strategi jangka panjang adalah kunci sukses sejati</li>
           </ul>
         </div>
 
         <div class="info-card">
           <h3><span class="card-icon">🛡️</span> Keamanan & Privasi</h3>
-          <p>LINETOGEL menggunakan <strong>teknologi enkripsi SSL terbaru</strong>. Sistem keamanan diaudit berkala. Setiap transaksi diproses melalui <strong>payment gateway resmi</strong>. Data member tidak akan pernah dibagikan ke pihak ketiga.</p>
+          <p>LINETOGEL menggunakan <strong>teknologi enkripsi SSL terbaru</strong>. Sistem keamanan diaudit berkala. Setiap transaksi diproses melalui <strong>payment gateway resmi</strong>. Data member tidak akan pernah dibagikan ke pihak ketiga. <a href="/privacy.html">Baca kebijakan privasi lengkap →</a></p>
+        </div>
+
+        <!-- Perbandingan LINETOGEL vs Situs Lain -->
+        <div class="info-card">
+          <h3><span class="card-icon">⚖️</span> LINETOGEL vs Situs Toto Lain</h3>
+          <div class="comparison-row"><span class="c-feature">Bayaran Kemenangan</span><span class="c-us">Tertinggi ⬆️</span><span class="c-other">Standar / Dipotong</span></div>
+          <div class="comparison-row"><span class="c-feature">Jumlah Pasaran</span><span class="c-us">20+ Pasaran ✅</span><span class="c-other">5-10 Pasaran</span></div>
+          <div class="comparison-row"><span class="c-feature">Kecepatan WD</span><span class="c-us">1-15 Menit ⚡</span><span class="c-other">30 Menit - 24 Jam</span></div>
+          <div class="comparison-row"><span class="c-feature">Minimal Deposit</span><span class="c-us">Rp 10.000 💰</span><span class="c-other">Rp 25.000 - 50.000</span></div>
+          <div class="comparison-row"><span class="c-feature">Customer Service</span><span class="c-us">24 Jam Nonstop 🎯</span><span class="c-other">Jam Kerja Terbatas</span></div>
+          <div class="comparison-row"><span class="c-feature">Keamanan Data</span><span class="c-us">SSL + Enkripsi 🔒</span><span class="c-other">Tidak Jelas</span></div>
+          <div class="comparison-row"><span class="c-feature">Akses Mobile</span><span class="c-us">AMP Optimized 📱</span><span class="c-other">Lemot / Tidak Responsive</span></div>
+        </div>
+
+        <!-- Testimoni -->
+        <div class="info-card">
+          <h3><span class="card-icon">⭐</span> Testimoni Member LINETOGEL</h3>
+          <div class="testimoni-grid">
+            <div class="testimoni-card">
+              <div class="t-name">Rizky A. — Jakarta</div>
+              <div class="t-stars">⭐⭐⭐⭐⭐</div>
+              <div class="t-text">"Udah 3 bulan main di LINETOGEL, gak pernah kecewa. WD lancar, CS fast response. Situs toto terbaik yang pernah saya coba!"</div>
+            </div>
+            <div class="testimoni-card">
+              <div class="t-name">Andi P. — Surabaya</div>
+              <div class="t-stars">⭐⭐⭐⭐⭐</div>
+              <div class="t-text">"Awalnya ragu karena banyak situs toto yang scam. Tapi setelah nyoba LINETOGEL, langsung percaya. WD 5 menit udah masuk rekening BCA."</div>
+            </div>
+            <div class="testimoni-card">
+              <div class="t-name">Budi S. — Bandung</div>
+              <div class="t-stars">⭐⭐⭐⭐⭐</div>
+              <div class="t-text">"Pasaran lengkap banget! Dari Cambodia pagi sampe Hongkong malem, semua ada. Gak perlu pindah-pindah situs lagi."</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tips Extended -->
+        <div class="info-card">
+          <h3><span class="card-icon">🎯</span> Strategi Bermain Toto untuk Hasil Maksimal</h3>
+          <p>Setelah bertahun-tahun mengamati pola permainan, berikut strategi yang paling sering digunakan pemain sukses di LINETOGEL:</p>
+          <ul>
+            <li><strong>Analisis Data Historis:</strong> Pelajari pola keluaran 30 hari terakhir sebelum memasang angka. Setiap <a href="/pages/pasaran.html">pasaran toto</a> memiliki karakteristik pola yang berbeda.</li>
+            <li><strong>Diversifikasi Pasaran:</strong> Jangan fokus di satu pasaran saja. Sebar taruhan di 3-5 pasaran berbeda untuk meningkatkan peluang menang.</li>
+            <li><strong>Manajemen Bankroll Disiplin:</strong> Tentukan batas harian — misalnya maksimal 10% dari total saldo per hari. Jangan pernah mengejar kekalahan.</li>
+            <li><strong>Manfaatkan Promo:</strong> Bonus new member dan cashback mingguan di LINETOGEL bisa menambah modal bermain tanpa risiko tambahan.</li>
+            <li><strong>Komunitas & Sharing:</strong> Bergabung dengan <a href="/artikel.html">komunitas dan baca artikel strategi</a> dari pemain berpengalaman untuk terus mengasah insting.</li>
+          </ul>
+        </div>
+
+        <!-- Kota Links -->
+        <div class="info-card">
+          <h3><span class="card-icon">📍</span> LINETOGEL di Kota Anda</h3>
+          <p>Kami melayani pemain dari seluruh Indonesia. Pilih kota Anda untuk informasi akses dan metode deposit lokal:</p>
+          <div class="kota-grid">
+            <a href="/lokasi/jakarta.html" class="kota-link">🏙️ Jakarta</a>
+            <a href="/lokasi/surabaya.html" class="kota-link">🏙️ Surabaya</a>
+            <a href="/lokasi/bandung.html" class="kota-link">🏙️ Bandung</a>
+            <a href="/lokasi/medan.html" class="kota-link">🏙️ Medan</a>
+          </div>
         </div>
 
         <div class="info-card">
@@ -1211,6 +1409,154 @@
         <div class="faq-item">
           <h3>Bisa diakses dari HP?</h3>
           <p>Tentu! LINETOGEL <strong>mobile-friendly</strong>, lancar di Android & iPhone tanpa aplikasi tambahan.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Apakah ada bonus untuk member baru?</h3>
+          <p>Ya, LINETOGEL menyediakan <strong>bonus new member</strong> yang langsung dikreditkan setelah deposit pertama. Selain itu ada cashback mingguan dan promo event spesial.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Berapa lama proses withdraw?</h3>
+          <p>Dengan sistem <strong>auto-withdraw</strong> LINETOGEL, dana kemenangan diproses dalam <strong>1-15 menit</strong> dan langsung masuk ke rekening bank atau e-wallet yang terdaftar.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Apa saja metode deposit yang tersedia?</h3>
+          <p>Kami mendukung <strong>transfer bank</strong> (BCA, BRI, BNI, Mandiri, CIMB, Danamon, BSI, Maybank, Jago, SeaBank), <strong>e-wallet</strong> (Dana, OVO, GoPay, LinkAja), dan <strong>pulsa</strong> (Telkomsel, XL, Tri).</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Apakah LINETOGEL punya aplikasi mobile?</h3>
+          <p>LINETOGEL menggunakan teknologi <strong>AMP (Accelerated Mobile Pages)</strong> sehingga bisa diakses super cepat dari browser HP tanpa perlu download aplikasi. Buka langsung dari Chrome, Safari, atau browser bawaan HP Anda.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Bagaimana cara klaim bonus?</h3>
+          <p>Bonus new member otomatis dikreditkan setelah deposit pertama. Untuk promo spesial, cek halaman promosi atau hubungi <strong>live chat 24 jam</strong> kami untuk panduan klaim.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Apakah data pribadi saya aman?</h3>
+          <p>Ya, kami menggunakan <strong>enkripsi SSL 256-bit</strong> dan sistem keamanan berlapis. <a href="/privacy.html">Baca kebijakan privasi kami</a> untuk informasi lengkap tentang perlindungan data.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Bisa main lebih dari 1 akun?</h3>
+          <p>Sesuai <a href="/terms.html">syarat & ketentuan</a>, setiap member hanya diperbolehkan memiliki <strong>1 akun</strong>. Akun ganda akan terdeteksi sistem dan berpotensi dinonaktifkan.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Jam berapa result pasaran dikeluarkan?</h3>
+          <p>Setiap <a href="/pages/pasaran.html">pasaran toto</a> memiliki jam result berbeda — dari pukul 11:30 WIB (Cambodia) hingga 23:00 WIB (London). Cek halaman pasaran untuk jadwal lengkap.</p>
+        </div>
+
+        <!-- Artikel Links -->
+        <div class="section-header section-header-mt">
+          <h2>📚 Panduan & Artikel Toto Terbaru</h2>
+        </div>
+        <div class="info-card">
+          <ul>
+            <li>📖 <a href="/artikel.html">Panduan Situs Toto Terpercaya 2026</a> — cara memilih situs aman</li>
+            <li>💡 <a href="/pages/tips.html">Strategi Menang Toto Online</a> — rahasia para master</li>
+            <li>📝 <a href="/pages/daftar.html">Cara Daftar Toto Online 2 Menit</a> — panduan step-by-step</li>
+            <li>🌍 <a href="/pages/pasaran.html">20+ Pasaran Toto Terlengkap</a> — daftar dan jadwal resmi</li>
+            <li>💰 <a href="/artikel/07-deposit-murah-toto.html">Deposit Murah Mulai 10 Ribu</a> — mulai modal kecil</li>
+          </ul>
+        </div>
+
+        <!-- Glossary -->
+        <div class="info-card">
+          <h3><span class="card-icon">📖</span> Istilah Penting dalam Toto Online</h3>
+          <p>Bagi pemain baru, berikut istilah-istilah yang wajib dipahami sebelum mulai bermain:</p>
+          <ul>
+            <li><strong>Pasaran:</strong> Jenis pasar atau pool taruhan berdasarkan negara/kota (Singapore, Hongkong, Sydney, dll). Setiap pasaran punya jam tutup dan result berbeda.</li>
+            <li><strong>Betting / Taruhan:</strong> Jumlah uang yang dipasang pada angka tertentu. Semakin besar betting, semakin besar potensi kemenangan.</li>
+            <li><strong>Result / Keluaran:</strong> Hasil angka yang dikeluarkan oleh pasaran pada waktu yang ditentukan, biasanya 4 digit.</li>
+            <li><strong>WD (Withdraw):</strong> Proses penarikan dana kemenangan. Di LINETOGEL, WD diproses 1-15 menit.</li>
+            <li><strong>Bankroll:</strong> Total modal yang dialokasikan khusus untuk bermain. Manajemen bankroll yang baik adalah kunci bermain jangka panjang.</li>
+            <li><strong>4D / 3D / 2D:</strong> Jenis taruhan berdasarkan jumlah digit — 4D (4 digit), 3D (3 digit terakhir), 2D (2 digit terakhir).</li>
+            <li><strong>Colok Bebas:</strong> Taruhan menebak 1 angka yang muncul di posisi mana pun. Lebih mudah — cocok untuk pemula.</li>
+            <li><strong>Colok Jitu:</strong> Taruhan menebak 1 angka pada posisi spesifik (As/Kop/Kepala/Ekor). Hadiah lebih besar.</li>
+            <li><strong>Shio:</strong> Taruhan berdasarkan 12 lambang shio China — masing-masing mewakili kelompok angka tertentu.</li>
+          </ul>
+        </div>
+
+        <!-- Jenis Taruhan -->
+        <div class="info-card">
+          <h3><span class="card-icon">🎲</span> Jenis-Jenis Taruhan Toto Online</h3>
+          <p>LINETOGEL menyediakan berbagai jenis taruhan. Kenali setiap jenis dan pilih yang paling sesuai dengan strategi Anda:</p>
+          <ul>
+            <li><strong>4D (4 Digit):</strong> Tebak 4 angka tepat. Hadiah terbesar — hingga ribuan kali lipat dari nilai taruhan.</li>
+            <li><strong>3D (3 Digit):</strong> Tebak 3 angka terakhir. Hadiah lebih kecil dari 4D tapi peluang menang lebih besar.</li>
+            <li><strong>2D (2 Digit):</strong> Tebak 2 angka terakhir. Peluang menang paling tinggi — favorit pemula.</li>
+            <li><strong>Colok Bebas 2D:</strong> Tebak 2 angka di posisi mana pun — tidak perlu urutan tepat.</li>
+            <li><strong>Kombinasi:</strong> Taruhan yang mencakup semua kemungkinan susunan dari angka yang dipilih.</li>
+          </ul>
+          <p>Pelajari lebih lanjut tentang strategi masing-masing jenis taruhan di <a href="/pages/tips.html">halaman tips & strategi</a> kami.</p>
+        </div>
+
+        <!-- Mengapa LINETOGEL -->
+        <div class="info-card">
+          <h3><span class="card-icon">🚀</span> Mengapa LINETOGEL Pilihan Tepat Pemain Indonesia</h3>
+          <ul>
+            <li><strong>Transparansi Penuh:</strong> Setiap transaksi tercatat jelas. Riwayat deposit, taruhan, kemenangan, dan withdraw bisa dicek kapan saja.</li>
+            <li><strong>Komunitas Aktif:</strong> Ribuan member setiap hari — berbagi strategi melalui <a href="/artikel.html">artikel dan panduan</a> kami.</li>
+            <li><strong>Tanpa Biaya Tersembunyi:</strong> Tidak ada potongan tidak wajar. Semua kemenangan dibayarkan penuh tanpa syarat aneh.</li>
+            <li><strong>Update Real-Time:</strong> Hasil pasaran di-update langsung. Cek di <a href="/pages/pasaran.html">halaman pasaran</a> kapan saja.</li>
+            <li><strong>Edukasi Pemain:</strong> Kami menyediakan <a href="/pages/tips.html">tips bermain</a>, <a href="/pages/daftar.html">panduan daftar</a>, dan analisis untuk keputusan yang lebih baik.</li>
+          </ul>
+        </div>
+
+        <!-- Cara Memilih Angka -->
+        <div class="info-card">
+          <h3><span class="card-icon">🔢</span> Cara Memilih Angka Toto yang Tepat</h3>
+          <p>Memilih angka bukan sekadar tebak-tebakan. Pemain profesional menggunakan metode analisis:</p>
+          <ul>
+            <li><strong>Analisis Frekuensi:</strong> Catat angka yang sering keluar (hot numbers) dan yang jarang muncul (cold numbers) dalam 50-100 draw terakhir.</li>
+            <li><strong>Pola Posisi:</strong> Analisis posisi spesifik (As, Kop, Kepala, Ekor) — beberapa angka cenderung muncul di posisi tertentu.</li>
+            <li><strong>Metode BBFS:</strong> Pilih beberapa angka favorit, kombinasikan dalam berbagai posisi untuk coverage maksimal.</li>
+            <li><strong>Investasi Bertahap:</strong> Mulai dengan betting kecil. Jika belum tembus, naikkan sedikit — strategi populer pemain profesional.</li>
+          </ul>
+          <p>Kunjungi <a href="/pages/pasaran.html">halaman pasaran</a> untuk data result terkini dan mulai analisis Anda.</p>
+        </div>
+
+        <!-- Panduan Deposit & WD -->
+        <div class="info-card">
+          <h3><span class="card-icon">💳</span> Panduan Deposit & Withdraw</h3>
+          <p>Proses transaksi di LINETOGEL dirancang se-simpel dan se-cepat mungkin. Berikut panduan lengkapnya:</p>
+          <p><strong>🟢 Cara Deposit:</strong></p>
+          <ol>
+            <li>Login ke akun LINETOGEL Anda. Jika belum punya akun, <a href="/pages/daftar.html">daftar di sini</a> terlebih dahulu.</li>
+            <li>Klik menu <strong>Deposit</strong> di dashboard utama.</li>
+            <li>Pilih metode pembayaran: transfer bank (BCA, BRI, BNI, Mandiri, CIMB, Danamon, BSI, Maybank, Jago, SeaBank) atau e-wallet (Dana, OVO, GoPay, LinkAja).</li>
+            <li>Masukkan nominal deposit — minimal Rp 10.000. Saldo akan otomatis bertambah dalam hitungan detik setelah transfer terkonfirmasi.</li>
+            <li>Simpan bukti transfer untuk referensi. Jika saldo belum masuk dalam 5 menit, hubungi live chat 24 jam kami.</li>
+          </ol>
+          <p><strong>🔴 Cara Withdraw:</strong></p>
+          <ol>
+            <li>Klik menu <strong>Withdraw</strong> di dashboard.</li>
+            <li>Masukkan nominal penarikan. Pastikan saldo mencukupi dan memenuhi minimal WD.</li>
+            <li>Pilih rekening tujuan — pastikan nama rekening sesuai dengan nama akun terdaftar.</li>
+            <li>Konfirmasi penarikan. Dana akan diproses dalam <strong>1-15 menit</strong> dan langsung masuk ke rekening Anda.</li>
+            <li>Cek mutasi rekening atau notifikasi mobile banking untuk konfirmasi dana masuk.</li>
+          </ol>
+          <p>Untuk bantuan transaksi, tim <a href="/contact.html">customer service</a> kami siap membantu 24 jam nonstop.</p>
+        </div>
+
+        <!-- Bermain Aman -->
+        <div class="info-card">
+          <h3><span class="card-icon">🛡️</span> Tips Bermain Toto Online dengan Aman</h3>
+          <p>Keamanan adalah prioritas. Ikuti panduan ini untuk pengalaman bermain yang aman dan bebas khawatir:</p>
+          <ul>
+            <li><strong>Gunakan Password Kuat:</strong> Kombinasikan huruf besar, huruf kecil, angka, dan simbol. Jangan gunakan password yang sama dengan akun lain Anda.</li>
+            <li><strong>Aktifkan Verifikasi 2 Langkah:</strong> Tambahkan lapisan keamanan ekstra dengan verifikasi via email atau WhatsApp untuk setiap transaksi penting.</li>
+            <li><strong>Jangan Share Akun:</strong> Akun Anda bersifat pribadi. Jangan berikan username dan password kepada siapa pun, termasuk yang mengaku sebagai admin.</li>
+            <li><strong>Login dari Perangkat Pribadi:</strong> Hindari login dari komputer umum atau warnet. Jika terpaksa, selalu logout setelah selesai dan bersihkan cache browser.</li>
+            <li><strong>Waspada Phishing:</strong> LINETOGEL tidak pernah meminta password melalui chat, telepon, atau email. Hanya gunakan link resmi <a href="/">linetogel-pi.vercel.app</a> untuk login.</li>
+            <li><strong>Update Browser:</strong> Pastikan browser Anda selalu versi terbaru untuk perlindungan keamanan optimal.</li>
+          </ul>
+          <p>Baca <a href="/privacy.html">kebijakan privasi</a> dan <a href="/terms.html">syarat & ketentuan</a> lengkap kami untuk informasi lebih lanjut.</p>
         </div>
 
         <!-- Payment Methods -->

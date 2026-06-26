@@ -1,4 +1,4 @@
-# PDF Ebook — Panduan Bermain Toto Online untuk Pemula
+﻿# PDF Ebook — Panduan Bermain Toto Online untuk Pemula
 
 File ini berisi outline dan konten lengkap untuk ebook 3 halaman yang bisa di-upload ke Scribd, SlideShare, Academia.edu, dan platform dokumen sharing lainnya. Mengandung backlink natural.
 
@@ -12,7 +12,7 @@ File ini berisi outline dan konten lengkap untuk ebook 3 halaman yang bisa di-up
 | **Format** | PDF, 3 halaman (A4) |
 | **Target Upload** | Scribd, SlideShare, Academia.edu, Issuu, DocDroid |
 | **Target Keyword** | panduan bermain toto online, cara bermain toto |
-| **Backlink** | 2 link menuju why-six-drab.vercel.app |
+| **Backlink** | 2 link menuju linetogel-site.vercel.app |
 
 ---
 
@@ -87,7 +87,7 @@ Memilih situs yang tepat adalah langkah paling krusial. Berikut kriteria yang pe
 ✅ **Keamanan Digital** — Situs wajib menggunakan enkripsi SSL (HTTPS)  
 ✅ **Deposit Murah** — Minimal deposit rendah untuk memulai dengan risiko kecil  
 
-Salah satu situs yang memenuhi semua kriteria di atas adalah **LINETOGEL**. Dengan bayaran tertinggi dan proses withdraw instan, situs ini menjadi pilihan utama banyak pemain Indonesia. Kunjungi situs resminya di [https://why-six-drab.vercel.app/](https://why-six-drab.vercel.app/).
+Salah satu situs yang memenuhi semua kriteria di atas adalah **LINETOGEL**. Dengan bayaran tertinggi dan proses withdraw instan, situs ini menjadi pilihan utama banyak pemain Indonesia. Kunjungi situs resminya di [https://linetogel-site.vercel.app/](https://linetogel-site.vercel.app/).
 
 ### Bab 3: 5 Tips Menang untuk Pemula
 
@@ -105,7 +105,7 @@ Salah satu situs yang memenuhi semua kriteria di atas adalah **LINETOGEL**. Deng
 
 Bermain toto online bisa menjadi aktivitas yang menyenangkan jika dilakukan dengan bijak. Kuncinya adalah memilih situs yang tepat dan selalu bermain dalam batas kemampuan Anda.
 
-Untuk pengalaman bermain terbaik, kunjungi [https://why-six-drab.vercel.app/](https://why-six-drab.vercel.app/) — situs toto online terpercaya dengan bayaran tertinggi.
+Untuk pengalaman bermain terbaik, kunjungi [https://linetogel-site.vercel.app/](https://linetogel-site.vercel.app/) — situs toto online terpercaya dengan bayaran tertinggi.
 
 **Selamat bermain dan semoga beruntung! 🍀**
 

@@ -1,6 +1,6 @@
-# Artikel Index — Why Project Backlink Articles
+﻿# Artikel Index — Why Project Backlink Articles
 
-Berikut daftar lengkap 19 file konten untuk proyek **why-six-drab.vercel.app** — artikel backlink, konten video, media sosial, dan kalender posting.
+Berikut daftar lengkap 19 file konten untuk proyek **linetogel-site.vercel.app** — artikel backlink, konten video, media sosial, dan kalender posting.
 
 ## Tier 1 — Artikel Konten (File 1-8)
 
@@ -38,7 +38,7 @@ Berikut daftar lengkap 19 file konten untuk proyek **why-six-drab.vercel.app** �
 
 ## Link Target
 
-Semua file berisi natural link menuju: **https://why-six-drab.vercel.app/**
+Semua file berisi natural link menuju: **https://linetogel-site.vercel.app/**
 
 ## Format
 

@@ -1,6 +1,6 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /api
 
-Sitemap: https://why-six-drab.vercel.app/sitemap.xml
+Sitemap: https://linetogel-site.vercel.app/sitemap.xml

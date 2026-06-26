@@ -1,4 +1,4 @@
-# 🏢 Konten Google Business Profile — LINETOGEL
+﻿# 🏢 Konten Google Business Profile — LINETOGEL
 
 **Platform:** Google Business Profile (sebelumnya Google My Business)  
 **Target:** Local SEO Indonesia, pencarian "situs toto", "toto online terpercaya", "pasaran toto"  
@@ -59,7 +59,7 @@ Senin – Minggu: Buka 24 Jam
 
 ### Website
 ```
-https://why-six-drab.vercel.app/
+https://linetogel-site.vercel.app/
 ```
 
 ### Nomor Telepon
@@ -101,7 +101,7 @@ t.me/linetogelofficial
 ### FAQ 2
 **Q:** Bagaimana cara daftar di LINETOGEL?
 
-**A:** Cara daftar sangat mudah. Kunjungi website resmi kami di https://why-six-drab.vercel.app/, klik tombol DAFTAR, isi form pendaftaran dengan data lengkap dan valid, lalu submit. Akun Anda langsung aktif dan siap digunakan. Proses pendaftaran gratis dan hanya membutuhkan waktu kurang dari 2 menit.
+**A:** Cara daftar sangat mudah. Kunjungi website resmi kami di https://linetogel-site.vercel.app/, klik tombol DAFTAR, isi form pendaftaran dengan data lengkap dan valid, lalu submit. Akun Anda langsung aktif dan siap digunakan. Proses pendaftaran gratis dan hanya membutuhkan waktu kurang dari 2 menit.
 
 ---
 
@@ -166,7 +166,7 @@ Situs toto online terpercaya dengan pasaran terlengkap dan bayaran tertinggi di 
 
 Kunjungi website kami dan daftar sekarang!
 
-🔗 why-six-drab.vercel.app
+🔗 linetogel-site.vercel.app
 📞 [nomor telepon]
 
 #LINETOGEL #TotoOnline #SitusTotoTerpercaya
@@ -186,7 +186,7 @@ Selamat untuk para pemenang! Kemenangan sudah masuk ke saldo akun masing-masing.
 
 Cek pasaran berikutnya di website kami 👇
 
-🔗 why-six-drab.vercel.app
+🔗 linetogel-site.vercel.app
 
 #HasilPasaran #TotoHariIni #LINETOGEL
 ```
@@ -204,7 +204,7 @@ Bonus deposit hingga 20% untuk setiap deposit! Tambah modal main Anda tanpa kelu
 
 Klik link di bawah untuk klaim bonus Anda sekarang!
 
-🔗 why-six-drab.vercel.app
+🔗 linetogel-site.vercel.app
 
 #PromoToto #BonusDeposit #LINETOGEL
 ```
@@ -223,7 +223,7 @@ Klik link di bawah untuk klaim bonus Anda sekarang!
 Konsistensi adalah kunci kemenangan jangka panjang!
 
 👉 Mulai terapkan tips ini di LINETOGEL:
-🔗 why-six-drab.vercel.app
+🔗 linetogel-site.vercel.app
 
 #TipsToto #StrategiMenang #LINETOGEL
 ```
@@ -238,7 +238,7 @@ Konsistensi adalah kunci kemenangan jangka panjang!
 
 Ribuan member sudah buktikan sendiri. Sekarang giliran Anda!
 
-🔗 Daftar gratis: why-six-drab.vercel.app
+🔗 Daftar gratis: linetogel-site.vercel.app
 
 #Testimoni #ReviewToto #LINETOGEL
 ```
@@ -253,7 +253,7 @@ Tambahan pasaran baru! Kini tersedia lebih banyak pilihan pasaran internasional 
 
 Cek daftar pasaran lengkap di website kami dan pilih favorit Anda!
 
-🔗 why-six-drab.vercel.app
+🔗 linetogel-site.vercel.app
 
 #PasaranBaru #UpdateLINETOGEL #TotoOnline
 ```
@@ -267,7 +267,7 @@ Cek daftar pasaran lengkap di website kami dan pilih favorit Anda!
 | Nama bisnis mengandung keyword | ✅ | "LINETOGEL — Situs Toto Online Terpercaya" |
 | Kategori tepat | ✅ | Situs Permainan Online + Layanan Lotere |
 | Deskripsi mengandung keyword | ✅ | "situs toto online terpercaya", "pasaran terlengkap", "bayaran tertinggi" |
-| Website terhubung | ✅ | https://why-six-drab.vercel.app/ |
+| Website terhubung | ✅ | https://linetogel-site.vercel.app/ |
 | Jam operasional | ✅ | 24 jam, Senin–Minggu |
 | Nomor telepon valid | ⬜ | Isi dengan nomor CS aktif |
 | Foto/logo terupload | ⬜ | Upload logo LINETOGEL + banner |

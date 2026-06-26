@@ -1,4 +1,4 @@
-# 📅 Kalender Konten 30 Hari — LINETOGEL
+﻿# 📅 Kalender Konten 30 Hari — LINETOGEL
 
 **Periode:** 30 Hari  
 **Platform:** Medium, Blogger, Telegram, TikTok, Instagram, Twitter/X, Facebook  
@@ -318,7 +318,7 @@
 
 [Isi konten 50-100 kata]
 
-🔗 Daftar: https://why-six-drab.vercel.app/
+🔗 Daftar: https://linetogel-site.vercel.app/
 #[Hashtag1] #[Hashtag2] #[Hashtag3]
 ```
 
@@ -329,7 +329,7 @@
 💡 Tips Toto hari ini: [isi tips 1-2 kalimat]
 
 Pelajari lebih lanjut 👇
-why-six-drab.vercel.app
+linetogel-site.vercel.app
 
 #LINETOGEL #TipsToto
 ```
@@ -341,7 +341,7 @@ why-six-drab.vercel.app
 [Deskripsi singkat, highlight benefit]
 
 Daftar sekarang 👇
-why-six-drab.vercel.app
+linetogel-site.vercel.app
 
 #Promo #LINETOGEL
 ```

@@ -1,10 +1,10 @@
-# Sosial Media Profile — Copy-Paste
+﻿# Sosial Media Profile — Copy-Paste
 
 ## Twitter/X Bio
 ```
 LINETOGEL | Situs Toto Pasaran Lengkap & Bayaran Tertinggi 🏆
 Daftar sekarang 👇
-why-six-drab.vercel.app
+linetogel-site.vercel.app
 ```
 
 ## Facebook Page Description
@@ -12,7 +12,7 @@ why-six-drab.vercel.app
 LINETOGEL adalah situs toto online terpercaya dengan pasaran terlengkap dan bayaran kemenangan tertinggi di Indonesia. 
 Daftar sekarang dan raih kemenangan besar Anda!
 
-🌐 https://why-six-drab.vercel.app/
+🌐 https://linetogel-site.vercel.app/
 ```
 
 ## Instagram Bio
@@ -21,7 +21,7 @@ Daftar sekarang dan raih kemenangan besar Anda!
 🎯 Situs Toto Pasaran Lengkap
 ⚡ Bayaran Tertinggi
 👇 Daftar Sekarang
-why-six-drab.vercel.app
+linetogel-site.vercel.app
 ```
 
 ## TikTok Bio
@@ -35,13 +35,13 @@ Link Daftar 👇
 ```
 LINETOGEL - Situs Toto Online Terpercaya dengan Pasaran Terlengkap & Bayaran Tertinggi di Indonesia. 
 Daftar sekarang dan menangkan hadiah besar! 
-https://why-six-drab.vercel.app/
+https://linetogel-site.vercel.app/
 #toto #totoonline #linetogel #situs toto #togelonline
 ```
 
 ## Forum Signature (Kaskus, dll)
 ```
-[URL="https://why-six-drab.vercel.app/"]LINETOGEL[/URL] - Situs Toto Pasaran Lengkap & Bayaran Tertinggi | Daftar Sekarang!
+[URL="https://linetogel-site.vercel.app/"]LINETOGEL[/URL] - Situs Toto Pasaran Lengkap & Bayaran Tertinggi | Daftar Sekarang!
 ```
 
 ## Telegram Channel Description
@@ -51,5 +51,5 @@ https://why-six-drab.vercel.app/
 🎯 Pasaran Terlengkap
 ⚡ Bayaran Tertinggi
 
-Daftar: https://why-six-drab.vercel.app/
+Daftar: https://linetogel-site.vercel.app/
 ```

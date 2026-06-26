@@ -1,4 +1,4 @@
-# 🎬 Script Video YouTube: "Cara Daftar LINETOGEL dan Menang Besar"
+﻿# 🎬 Script Video YouTube: "Cara Daftar LINETOGEL dan Menang Besar"
 
 **Durasi Target:** 3–5 menit  
 **Judul Video:** Cara Daftar LINETOGEL dan Menang Besar — Panduan Lengkap 2025  
@@ -22,7 +22,7 @@ Di video ini gua kasih tutorial lengkap cara daftar di LINETOGEL — situs toto 
 3:00 - Kesalahan Pemula yang Harus Dihindari
 3:30 - CTA & Penutup
 
-🔗 DAFTAR SEKARANG: https://why-six-drab.vercel.app/
+🔗 DAFTAR SEKARANG: https://linetogel-site.vercel.app/
 
 📱 FOLLOW SOSMED KITA:
 • Telegram: t.me/linetogelofficial
@@ -64,7 +64,7 @@ Di video ini gua kasih tutorial lengkap cara daftar di LINETOGEL — situs toto 
 
 ## 🎥 BAGIAN 3: STEP-BY-STEP DAFTAR (1:00 – 2:00)
 
-**Visual:** Full screen recording — step by step pendaftaran di https://why-six-drab.vercel.app/. Setiap step diberi nomor overlay di pojok layar.
+**Visual:** Full screen recording — step by step pendaftaran di https://linetogel-site.vercel.app/. Setiap step diberi nomor overlay di pojok layar.
 
 > **HOST (voice-over):**
 > "Oke, sekarang kita langsung praktik."
@@ -178,7 +178,7 @@ Di video ini gua kasih tutorial lengkap cara daftar di LINETOGEL — situs toto 
 
 ## 🔗 LINK YANG HARUS ADA DI DESKRIPSI
 
-1. **Daftar LINETOGEL:** https://why-six-drab.vercel.app/
+1. **Daftar LINETOGEL:** https://linetogel-site.vercel.app/
 2. **Telegram Official:** t.me/linetogelofficial
 3. **Instagram:** instagram.com/linetogelofficial
 4. **TikTok:** tiktok.com/@linetogelofficial

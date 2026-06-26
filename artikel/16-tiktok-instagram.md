@@ -1,4 +1,4 @@
-# 📱 10 Script Video Pendek TikTok & Instagram Reels — LINETOGEL
+﻿# 📱 10 Script Video Pendek TikTok & Instagram Reels — LINETOGEL
 
 **Format:** Vertikal 9:16 | **Durasi:** 15–30 detik per video  
 **Target:** Viral, engagement tinggi, FYP-ready  
@@ -197,7 +197,7 @@
 | **Music/Sound** | Gunakan sound yang lagi trending di TikTok/Reels |
 | **Teks Overlay** | Font tebal, kontras tinggi, mudah dibaca di mobile |
 | **Caption** | 3–5 hashtag, mention @linetogelofficial, call-to-action |
-| **Link** | Taruh link https://why-six-drab.vercel.app/ di bio + di komen pin |
+| **Link** | Taruh link https://linetogel-site.vercel.app/ di bio + di komen pin |
 
 ### Jadwal Posting Ideal
 

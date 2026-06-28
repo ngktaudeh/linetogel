@@ -1093,10 +1093,143 @@
       background: rgba(255, 215, 0, 0.06);
       border-color: rgba(255, 215, 0, 0.25);
     }
+
+    /* ============================================ */
+    /*    NAVIGATION MENU (STICKY TOP)                */
+    /* ============================================ */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(0,0,0,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,215,0,0.2);
+      margin-bottom: 15px;
+      border-radius: 0 0 16px 16px;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+    .nav-brand {
+      font-size: 14px;
+      font-weight: 800;
+      color: #FFD700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .nav-brand img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+    }
+    .nav-toggle {
+      background: rgba(255,215,0,0.1);
+      border: 1px solid rgba(255,215,0,0.3);
+      color: #FFD700;
+      font-size: 20px;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-menu {
+      display: none;
+      border-top: 1px solid rgba(255,215,0,0.1);
+    }
+    .nav-menu.active {
+      display: block;
+    }
+    .nav-menu a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(255,215,0,0.05);
+      transition: all .2s;
+    }
+    .nav-menu a:hover, .nav-menu a.current {
+      color: #FFD700;
+      background: rgba(255,215,0,0.06);
+    }
+    .nav-sub {
+      padding-left: 32px !important;
+      font-size: 11px !important;
+    }
+    /* ============================================ */
+    /*    BREADCRUMB                                  */
+    /* ============================================ */
+    .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      align-items: center;
+      padding: 8px 0;
+      margin-bottom: 10px;
+    }
+    .breadcrumb a {
+      color: rgba(255,215,0,0.7);
+      text-decoration: none;
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .breadcrumb a:hover { color: #FFD700; }
+    .breadcrumb .sep {
+      color: rgba(255,255,255,0.3);
+      font-size: 10px;
+      margin: 0 2px;
+    }
+    .breadcrumb .current {
+      color: rgba(255,255,255,0.5);
+      font-size: 10px;
+    }
   </style>
 </head>
 
 <body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="nav-bar" aria-label="Navigasi Utama">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand" title="LINETOGEL Home">
+        <img src="https://bannersmb.site/icon/line/logo.png" alt="LINETOGEL" width="28" height="28" />
+        LINETOGEL
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <a href="/" class="current">🏠 Home</a>
+      <a href="/pages/pasaran.html">📊 Pasaran Toto</a>
+      <a href="/pages/daftar.html">📝 Cara Daftar</a>
+      <a href="/pages/tips.html">💡 Tips & Strategi</a>
+      <a href="/artikel.html">📚 Artikel & Panduan</a>
+            <a href="/lokasi/jakarta.html" class="nav-sub">🏙️ Jakarta</a>
+      <a href="/lokasi/surabaya.html" class="nav-sub">🏙️ Surabaya</a>
+      <a href="/lokasi/bandung.html" class="nav-sub">🏙️ Bandung</a>
+      <a href="/lokasi/medan.html" class="nav-sub">🏙️ Medan</a>
+      <a href="/lokasi/semarang.html" class="nav-sub">🏙️ Semarang</a>
+      <a href="/lokasi/makassar.html" class="nav-sub">🏙️ Makassar</a>
+      <a href="/lokasi/yogyakarta.html" class="nav-sub">🏙️ Yogyakarta</a>
+      <a href="/lokasi/palembang.html" class="nav-sub">🏙️ Palembang</a>
+      <a href="/lokasi/denpasar.html" class="nav-sub">🏙️ Denpasar</a>
+      <a href="/lokasi/balikpapan.html" class="nav-sub">🏙️ Balikpapan</a>
+      <a href="/about.html">ℹ️ Tentang Kami</a>
+      <a href="/contact.html">📞 Hubungi Kami</a>
+    </div>
+  </nav>
+
   <!-- Floating Gold Particles -->
   <div class="particle" style="top:8%;left:10%;width:5px;height:5px;"></div>
   <div class="particle" style="top:15%;left:85%;width:3px;height:3px;"></div>
@@ -1115,6 +1248,13 @@
 
   <!-- Konten Utama -->
   <div class="container">
+
+    <!-- ===== BREADCRUMB ===== -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">🏠 Home</a>
+      <span class="sep">›</span>
+      <span class="current">LINETOGEL — Situs Toto Pasaran Lengkap</span>
+    </nav>
 
     <!-- ===== HERO CARD ===== -->
     <main class="card">
@@ -1339,15 +1479,28 @@
             <a href="/lokasi/surabaya.html" class="kota-link">🏙️ Surabaya</a>
             <a href="/lokasi/bandung.html" class="kota-link">🏙️ Bandung</a>
             <a href="/lokasi/medan.html" class="kota-link">🏙️ Medan</a>
+            <a href="/lokasi/semarang.html" class="kota-link">🏙️ Semarang</a>
+            <a href="/lokasi/makassar.html" class="kota-link">🏙️ Makassar</a>
+            <a href="/lokasi/yogyakarta.html" class="kota-link">🏙️ Yogyakarta</a>
+            <a href="/lokasi/palembang.html" class="kota-link">🏙️ Palembang</a>
+            <a href="/lokasi/denpasar.html" class="kota-link">🏙️ Denpasar</a>
+            <a href="/lokasi/balikpapan.html" class="kota-link">🏙️ Balikpapan</a>
           </div>
         </div>
 
         <div class="info-card">
           <h2>🔗 Jelajahi Lebih Lanjut</h2>
           <ul>
-            <li><a href="/pages/pasaran.html">📊 Pasaran Toto Terlengkap</a></li>
-            <li><a href="/pages/daftar.html">📝 Panduan Cara Daftar</a></li>
-            <li><a href="/pages/tips.html">💡 Tips & Strategi Menang</a></li>
+            <li><a href="/pages/pasaran.html">📊 Pasaran Toto Terlengkap</a> — daftar 20+ pasaran dan jadwal result</li>
+            <li><a href="/pages/daftar.html">📝 Panduan Cara Daftar</a> — langkah mudah daftar dalam 2 menit</li>
+            <li><a href="/pages/tips.html">💡 Tips & Strategi Menang</a> — rahasia para master toto</li>
+            <li><a href="/artikel.html">📚 Artikel & Panduan Lengkap</a> — kumpulan panduan toto online</li>
+            <li><a href="/artikel/05-strategi-menang-toto.html">🎯 Strategi Menang Toto Online</a> — analisis pola dan statistik</li>
+            <li><a href="/artikel/07-deposit-murah-toto.html">💰 Deposit Murah Mulai 10 Ribu</a> — mulai bermain dengan modal kecil</li>
+            <li><a href="/artikel/03-cara-daftar-toto.html">📋 Cara Daftar Toto Online 2026</a> — panduan step-by-step lengkap</li>
+            <li><a href="/artikel/02-bayaran-tertinggi.html">🏆 Situs Bayaran Tertinggi</a> — bandingkan rate kemenangan</li>
+            <li><a href="/lokasi/jakarta.html">🏙️ LINETOGEL Jakarta</a> — akses cepat untuk pemain Jabodetabek</li>
+            <li><a href="/lokasi/surabaya.html">🏙️ LINETOGEL Surabaya</a> — layanan khusus pemain Surabaya</li>
           </ul>
         </div>
 
@@ -1594,6 +1747,16 @@
         </div>
 
         <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+
+        <!-- Nav Toggle -->
+        <script>
+          document.getElementById('navToggle').addEventListener('click', function() {
+            var menu = document.getElementById('navMenu');
+            var expanded = menu.classList.toggle('active');
+            this.setAttribute('aria-expanded', expanded);
+            this.textContent = expanded ? '✕' : '☰';
+          });
+        </script>
 
       </section>
 

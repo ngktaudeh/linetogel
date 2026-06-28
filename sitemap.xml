@@ -3,7 +3,7 @@
   <!-- Halaman Utama -->
   <url>
     <loc>https://linetogel-pi.vercel.app/</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,129 +11,275 @@
   <!-- Halaman Informasi -->
   <url>
     <loc>https://linetogel-pi.vercel.app/pages/pasaran.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/pages/daftar.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/pages/tips.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- City Landing Pages -->
+  <!-- Halaman Artikel Index -->
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- City Landing Pages (10) -->
   <url>
     <loc>https://linetogel-pi.vercel.app/lokasi/jakarta.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/lokasi/surabaya.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/lokasi/bandung.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/lokasi/medan.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/semarang.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/makassar.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/yogyakarta.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/palembang.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/denpasar.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/lokasi/balikpapan.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Halaman Trust Signals -->
+  <!-- Trust Signals -->
   <url>
     <loc>https://linetogel-pi.vercel.app/about.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/privacy.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/terms.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://linetogel-pi.vercel.app/contact.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Halaman Artikel -->
+  <!-- Artikel Baru (25) — Pillar 1: Panduan Dasar -->
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://linetogel-pi.vercel.app/artikel/panduan-lengkap-toto-online.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/cara-daftar-akun-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/cara-deposit-murah-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/cara-withdraw-cepat-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/jenis-permainan-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
-  <!-- Artikel Tier 1 -->
+  <!-- Pillar 2: Pasaran & Strategi -->
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/01-panduan-situs-toto-terpercaya.md</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/daftar-pasaran-toto-terlengkap.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/jam-result-pasaran-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/02-bayaran-tertinggi.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/strategi-4d-3d-2d.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/rumus-analisis-angka-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/03-cara-daftar-toto.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/manajemen-modal-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pillar 3: Keamanan -->
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/situs-toto-terpercaya-2026.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/tips-menghindari-penipuan-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/keamanan-transaksi-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/04-pasaran-toto-terlengkap.md</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/perbandingan-situs-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/testimoni-member-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Pillar 4: Bonus & Promosi -->
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/promo-bonus-toto-terbaru.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/bonus-deposit-member-baru.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/05-strategi-menang-toto.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/event-mingguan-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/06-situs-toto-bayaran-tertinggi.md</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/program-referral-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Misc -->
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/toto-online-vs-offline.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/07-deposit-murah-toto.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/cara-membaca-statistik-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://linetogel-pi.vercel.app/artikel/08-toto-online-24-jam.md</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://linetogel-pi.vercel.app/artikel/toto-mobile-android-iphone.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/toto-24-jam-nonstop.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/komunitas-pemain-toto.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://linetogel-pi.vercel.app/artikel/faq-toto-online.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -117,58 +117,243 @@
     .article-card .tag { display: inline-block; background: rgba(255,215,0,0.12); color: #FFD700; font-size: 10px; padding: 2px 8px; border-radius: 20px; margin-top: 10px; }
     footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,215,0,0.1); }
     footer a { color: #FFD700; text-decoration: none; margin: 0 10px; font-size: 13px; }
-  </style>
+  
+    /* ============================================ */
+    /*    NAVIGATION MENU (STICKY TOP)                */
+    /* ============================================ */
+    .nav-bar {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(0,0,0,0.95); backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,215,0,0.2);
+      margin-bottom: 15px; border-radius: 0 0 16px 16px;
+    }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 16px; max-width: 450px; margin: 0 auto;
+    }
+    .nav-brand {
+      font-size: 14px; font-weight: 800; color: #FFD700;
+      text-decoration: none; display: flex; align-items: center; gap: 6px;
+    }
+    .nav-brand img { width: 28px; height: 28px; border-radius: 6px; }
+    .nav-toggle {
+      background: rgba(255,215,0,0.1); border: 1px solid rgba(255,215,0,0.3);
+      color: #FFD700; font-size: 20px; width: 36px; height: 36px;
+      border-radius: 8px; cursor: pointer; display: flex;
+      align-items: center; justify-content: center;
+    }
+    .nav-menu { display: none; border-top: 1px solid rgba(255,215,0,0.1); }
+    .nav-menu.active { display: block; }
+    .nav-menu a {
+      display: flex; align-items: center; gap: 8px; padding: 10px 16px;
+      color: rgba(255,255,255,0.75); text-decoration: none; font-size: 12px;
+      font-weight: 500; border-bottom: 1px solid rgba(255,215,0,0.05); transition: all .2s;
+    }
+    .nav-menu a:hover, .nav-menu a.current { color: #FFD700; background: rgba(255,215,0,0.06); }
+    .nav-sub { padding-left: 32px !important; font-size: 11px !important; }
+    /* ============================================ */
+    /*    BREADCRUMB                                  */
+    /* ============================================ */
+    .breadcrumb {
+      display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
+      padding: 8px 0; margin-bottom: 10px;
+    }
+    .breadcrumb a { color: rgba(255,215,0,0.7); text-decoration: none; font-size: 10px; font-weight: 500; }
+    .breadcrumb a:hover { color: #FFD700; }
+    .breadcrumb .sep { color: rgba(255,255,255,0.3); font-size: 10px; margin: 0 2px; }
+    .breadcrumb .current { color: rgba(255,255,255,0.5); font-size: 10px; }
+
+</style>
 </head>
 <body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="nav-bar" aria-label="Navigasi Utama">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand" title="LINETOGEL Home">
+        <img src="https://bannersmb.site/icon/line/logo.png" alt="LINETOGEL" width="28" height="28" />
+        LINETOGEL
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <a href="/">🏠 Home</a>
+      <a href="/pages/pasaran.html">📊 Pasaran Toto</a>
+      <a href="/pages/daftar.html">📝 Cara Daftar</a>
+      <a href="/pages/tips.html">💡 Tips & Strategi</a>
+      <a href="/artikel.html" class="current">📚 Artikel & Panduan</a>
+            <a href="/lokasi/jakarta.html" class="nav-sub">🏙️ Jakarta</a>
+      <a href="/lokasi/surabaya.html" class="nav-sub">🏙️ Surabaya</a>
+      <a href="/lokasi/bandung.html" class="nav-sub">🏙️ Bandung</a>
+      <a href="/lokasi/medan.html" class="nav-sub">🏙️ Medan</a>
+      <a href="/lokasi/semarang.html" class="nav-sub">🏙️ Semarang</a>
+      <a href="/lokasi/makassar.html" class="nav-sub">🏙️ Makassar</a>
+      <a href="/lokasi/yogyakarta.html" class="nav-sub">🏙️ Yogyakarta</a>
+      <a href="/lokasi/palembang.html" class="nav-sub">🏙️ Palembang</a>
+      <a href="/lokasi/denpasar.html" class="nav-sub">🏙️ Denpasar</a>
+      <a href="/lokasi/balikpapan.html" class="nav-sub">🏙️ Balikpapan</a>
+      <a href="/about.html">ℹ️ Tentang Kami</a>
+      <a href="/contact.html">📞 Hubungi Kami</a>
+    </div>
+  </nav>
+
 <div class="container">
+
+    <!-- ===== BREADCRUMB ===== -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">🏠 Home</a>
+      <span class="sep">›</span>
+      <span class="current">📚 Artikel & Panduan</span>
+    </nav>
+
   <h1>📚 Artikel & Panduan Toto Online</h1>
   <p class="subtitle">Pelajari strategi, tips, dan panduan lengkap seputar toto online</p>
 
-  <h2>🟡 Panduan Utama</h2>
+  <h2>📖 Panduan Utama</h2>
   <div class="article-grid">
-    <a href="/artikel/01-panduan-situs-toto-terpercaya.md" class="article-card">
-      <h3>Panduan Situs Toto Terpercaya 2026</h3>
-      <p>Cara memilih situs toto yang aman dan terpercaya — cek ciri-ciri, lisensi, dan tips menghindari penipuan.</p>
+    <a href="/artikel/panduan-lengkap-toto-online.html" class="article-card">
+      <h3>Panduan Lengkap Toto Online untuk Pemula 2026</h3>
+      <p>Semua dasar toto online: cara daftar, jenis taruhan, tips menang, dan rekomendasi situs terpercaya.</p>
       <span class="tag">Panduan</span>
     </a>
-    <a href="/artikel/02-bayaran-tertinggi.html" class="article-card">
-      <h3>5 Situs Toto Bayaran Tertinggi</h3>
-      <p>Perbandingan rate bayaran tertinggi — dapatkan kemenangan maksimal tanpa potongan tidak wajar.</p>
-      <span class="tag">Review</span>
-    </a>
-    <a href="/artikel/03-cara-daftar-toto.html" class="article-card">
-      <h3>Cara Daftar Toto Online 2 Menit</h3>
-      <p>Step-by-step pendaftaran toto online — dari isi form sampai siap bermain.</p>
+    <a href="/artikel/cara-daftar-akun-toto.html" class="article-card">
+      <h3>Cara Daftar Akun Toto Online dalam 2 Menit</h3>
+      <p>Langkah-langkah pendaftaran super mudah — dari isi form sampai siap bermain.</p>
       <span class="tag">Tutorial</span>
     </a>
-    <a href="/artikel/04-pasaran-toto-terlengkap.md" class="article-card">
-      <h3>Pasaran Toto Terlengkap 2026</h3>
-      <p>Daftar 20+ pasaran toto resmi dari Asia hingga Eropa — lengkap dengan jadwal result.</p>
-      <span class="tag">Informasi</span>
+    <a href="/artikel/cara-deposit-murah-toto.html" class="article-card">
+      <h3>Cara Deposit Toto Online Murah Mulai 10 Ribu</h3>
+      <p>Semua metode deposit: transfer bank, e-wallet, dan pulsa — lengkap dengan panduan.</p>
+      <span class="tag">Tutorial</span>
+    </a>
+    <a href="/artikel/cara-withdraw-cepat-toto.html" class="article-card">
+      <h3>Cara Withdraw Cepat 1-15 Menit</h3>
+      <p>Panduan penarikan dana super cepat — syarat, langkah, dan tips anti gagal.</p>
+      <span class="tag">Tutorial</span>
     </a>
   </div>
 
-  <h2>💡 Strategi & Tips</h2>
+  <h2>💡 Strategi & Analisis</h2>
   <div class="article-grid">
-    <a href="/artikel/05-strategi-menang-toto.html" class="article-card">
-      <h3>Strategi Menang Toto Online</h3>
-      <p>Analisis pasaran, manajemen bankroll, dan strategi rahasia para master toto.</p>
+    <a href="/artikel/jenis-permainan-toto.html" class="article-card">
+      <h3>Jenis-Jenis Permainan Toto Online</h3>
+      <p>Kenali 4D, 3D, 2D, Colok Bebas, Colok Jitu, Shio — peluang dan hadiah masing-masing.</p>
+      <span class="tag">Edukasi</span>
+    </a>
+    <a href="/artikel/strategi-4d-3d-2d.html" class="article-card">
+      <h3>Strategi Menang 4D, 3D, 2D</h3>
+      <p>Analisis pola, BBFS, investasi bertahap — strategi dari pemain profesional.</p>
       <span class="tag">Strategi</span>
     </a>
-    <a href="/artikel/06-situs-toto-bayaran-tertinggi.md" class="article-card">
-      <h3>Situs Toto Bayaran Tertinggi</h3>
-      <p>Mengapa bayaran tinggi penting dan bagaimana memilih situs dengan rate terbaik.</p>
-      <span class="tag">Tips</span>
+    <a href="/artikel/rumus-analisis-angka-toto.html" class="article-card">
+      <h3>Rumus Analisis Angka Toto</h3>
+      <p>Metode frekuensi, pola posisi, BBFS, rumus matematika sederhana untuk prediksi.</p>
+      <span class="tag">Analisis</span>
     </a>
-    <a href="/artikel/07-deposit-murah-toto.html" class="article-card">
-      <h3>Deposit Murah Mulai 10 Ribu</h3>
-      <p>Bermain toto dengan modal kecil — metode deposit termurah dan tercepat.</p>
-      <span class="tag">Tips</span>
+    <a href="/artikel/manajemen-modal-toto.html" class="article-card">
+      <h3>Manajemen Modal Bermain Toto</h3>
+      <p>Bankroll management: atur budget, stop loss, betting progresif, dan hindari kerugian.</p>
+      <span class="tag">Strategi</span>
     </a>
-    <a href="/artikel/08-toto-online-24-jam.md" class="article-card">
-      <h3>Toto Online 24 Jam Non-Stop</h3>
-      <p>Pasaran pagi hingga malam — bermain kapan saja tanpa henti.</p>
+    <a href="/artikel/cara-membaca-statistik-toto.html" class="article-card">
+      <h3>Cara Membaca Statistik Toto Online</h3>
+      <p>Memahami pola, tren, frekuensi, dan data historis untuk prediksi akurat.</p>
+      <span class="tag">Analisis</span>
+    </a>
+  </div>
+
+  <h2>🌍 Pasaran & Jadwal</h2>
+  <div class="article-grid">
+    <a href="/artikel/daftar-pasaran-toto-terlengkap.html" class="article-card">
+      <h3>Daftar Pasaran Toto Terlengkap 2026</h3>
+      <p>20+ pasaran dalam satu akun — dari pagi hingga malam, selalu ada yang bisa dimainkan.</p>
       <span class="tag">Informasi</span>
+    </a>
+    <a href="/artikel/jam-result-pasaran-toto.html" class="article-card">
+      <h3>Jam Result Pasaran Toto Lengkap</h3>
+      <p>Jadwal buka-tutup dan result semua pasaran — update real-time.</p>
+      <span class="tag">Referensi</span>
+    </a>
+    <a href="/artikel/toto-24-jam-nonstop.html" class="article-card">
+      <h3>Toto Online 24 Jam Nonstop</h3>
+      <p>Bermain kapan saja — pasaran tersedia dari subuh hingga dini hari.</p>
+      <span class="tag">Informasi</span>
+    </a>
+    <a href="/artikel/toto-mobile-android-iphone.html" class="article-card">
+      <h3>Main Toto di HP Android & iPhone</h3>
+      <p>Akses mobile-friendly tanpa aplikasi — lancar di semua smartphone.</p>
+      <span class="tag">Panduan</span>
+    </a>
+  </div>
+
+  <h2>🔒 Keamanan & Kepercayaan</h2>
+  <div class="article-grid">
+    <a href="/artikel/situs-toto-terpercaya-2026.html" class="article-card">
+      <h3>Ciri-Ciri Situs Toto Terpercaya 2026</h3>
+      <p>10 ciri situs aman, red flags penipuan, dan panduan memilih platform terbaik.</p>
+      <span class="tag">Keamanan</span>
+    </a>
+    <a href="/artikel/tips-menghindari-penipuan-toto.html" class="article-card">
+      <h3>Tips Menghindari Penipuan Toto Online</h3>
+      <p>Kenali modus penipuan, cara verifikasi situs, dan langkah aman bermain.</p>
+      <span class="tag">Keamanan</span>
+    </a>
+    <a href="/artikel/keamanan-transaksi-toto.html" class="article-card">
+      <h3>Keamanan Transaksi Toto Online</h3>
+      <p>Enkripsi SSL, payment gateway aman, dan tips transaksi terlindungi.</p>
+      <span class="tag">Keamanan</span>
+    </a>
+    <a href="/artikel/perbandingan-situs-toto.html" class="article-card">
+      <h3>Perbandingan Situs Toto 2026</h3>
+      <p>LINETOGEL vs kompetitor — bandingkan bayaran, kecepatan WD, dan layanan.</p>
+      <span class="tag">Review</span>
+    </a>
+  </div>
+
+  <h2>🎁 Bonus & Komunitas</h2>
+  <div class="article-grid">
+    <a href="/artikel/promo-bonus-toto-terbaru.html" class="article-card">
+      <h3>Promo & Bonus Toto Terbaru 2026</h3>
+      <p>Bonus deposit, cashback, event spesial — maksimalkan keuntungan Anda.</p>
+      <span class="tag">Promo</span>
+    </a>
+    <a href="/artikel/bonus-deposit-member-baru.html" class="article-card">
+      <h3>Bonus Deposit Member Baru</h3>
+      <p>Cara klaim, syarat turnover, dan tips memaksimalkan bonus new member.</p>
+      <span class="tag">Promo</span>
+    </a>
+    <a href="/artikel/event-mingguan-toto.html" class="article-card">
+      <h3>Event Mingguan Toto Online</h3>
+      <p>Turnamen, lomba prediksi, giveaway — ikuti dan menangkan hadiah besar.</p>
+      <span class="tag">Event</span>
+    </a>
+    <a href="/artikel/program-referral-toto.html" class="article-card">
+      <h3>Program Referral — Dapatkan Komisi</h3>
+      <p>Ajak teman, dapatkan komisi pasif dari setiap referral yang bermain.</p>
+      <span class="tag">Komunitas</span>
+    </a>
+  </div>
+
+  <h2>📚 Lainnya</h2>
+  <div class="article-grid">
+    <a href="/artikel/testimoni-member-toto.html" class="article-card">
+      <h3>Testimoni Member LINETOGEL</h3>
+      <p>Kisah sukses dan pengalaman nyata pemain dari berbagai kota di Indonesia.</p>
+      <span class="tag">Testimoni</span>
+    </a>
+    <a href="/artikel/toto-online-vs-offline.html" class="article-card">
+      <h3>Toto Online vs Offline</h3>
+      <p>Perbandingan objektif — mana yang lebih menguntungkan dan praktis?</p>
+      <span class="tag">Perbandingan</span>
+    </a>
+    <a href="/artikel/komunitas-pemain-toto.html" class="article-card">
+      <h3>Komunitas Pemain Toto Online</h3>
+      <p>Belajar, sharing strategi, dan diskusi prediksi bersama sesama pemain.</p>
+      <span class="tag">Komunitas</span>
+    </a>
+    <a href="/artikel/faq-toto-online.html" class="article-card">
+      <h3>FAQ Toto Online — 20+ Pertanyaan</h3>
+      <p>Jawaban untuk pertanyaan paling umum seputar daftar, deposit, WD, dan keamanan.</p>
+      <span class="tag">Bantuan</span>
     </a>
   </div>
 
@@ -177,8 +362,19 @@
     <a href="/pages/daftar.html">📝 Cara Daftar</a>
     <a href="/pages/pasaran.html">🌍 Pasaran</a>
     <a href="/pages/tips.html">💡 Tips</a>
-    <a href="/artikel.html">📚 Artikel</a>
+    <a href="/artikel.html" class="current">📚 Artikel</a>
   </footer>
 </div>
+
+  <!-- Nav Toggle -->
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+      var menu = document.getElementById('navMenu');
+      var expanded = menu.classList.toggle('active');
+      this.setAttribute('aria-expanded', expanded);
+      this.textContent = expanded ? '✕' : '☰';
+    });
+  </script>
+
 </body>
 </html>
